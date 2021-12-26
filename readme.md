@@ -1,3 +1,22 @@
+# SKOI19 Register System
+
+## Method 1 Docker Compose (Recommended)
+
+### Requirement
+- Docker, Docker Compose
+
+### Installation Method
+- Rename .env.docker.template to .env and specific Environment Variable as need
+- Run `docker-compose build`
+- Run `docker-compose up`
+- Server will hosting on localhost Port 80
+
+## Method 2 Normal Installation On Any System
+- Deploy this folder to php server
+- Rename .env.example to .env and specific Environment Variable as need
+- Configuration Server according to System
+
+# Laravel
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
