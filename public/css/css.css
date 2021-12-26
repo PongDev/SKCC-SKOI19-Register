@@ -1,0 +1,97 @@
+body{
+  background-image: url("/resource/bg.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header{
+  font-family: 'Bai Jamjuree';
+  font-weight: bold;
+  color: #000000;
+}
+
+.navbar-bg{
+  position: absolute;
+  z-index: 0;
+  width: 98vw;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.navbar-container{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-padding{
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.navbar-icon{
+  width: 15vw;
+}
+
+.sponsor{
+  position: fixed;
+  bottom: 1vh;
+  left: 1vw;
+  font-size: calc(1.25vw + 1.25vh);
+}
+
+.sponsor-icon{
+  width: calc(6vw + 6vh);
+}
+
+.maincontent{
+  padding-top: calc((100vw/1502)*300);
+  padding-bottom: 200px;
+}
+
+.contact-header{
+  font-family: 'Comic Sans MS';
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.contact-icon{
+  fill: #5d6dfb;
+  width: 48px;
+  height: 48px;
+}
+
+.content{
+  font-family: 'Bai Jamjuree';
+  color: #002b07;
+}
+
+.content-block{
+  display: inline-block;
+  width: 350px;
+}
+
+.content-block-header{
+  font-family: Helvetica;
+}
+
+.content-block-sub-header{
+  font-family: 'Bai Jamjuree';
+  font-weight: 700;
+}
+
+.timetable-time{
+  width: 140px;
+  vertical-align: top;
+}
+
+.timetable-data{
+
+}
+
+.link{
+  color:#000000;
+}
